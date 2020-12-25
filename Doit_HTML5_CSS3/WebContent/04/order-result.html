@@ -3,6 +3,45 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style>
+	.container{
+		width : 600px;
+		margin: 0 auto;
+	}
+	
+	ul{
+		list-style-type : none;
+	}
+	
+	label.title {
+		font-weight : bold;
+		width: 80px;
+		float : left;
+	}
+	
+	label.check_box_title {
+		width : 230px;
+		float : left;
+	}
+	
+	div.centered {
+		text-align : center;
+	}
+	
+	fieldset {
+		margin : 15px 10px;
+	}
+	
+	fieldset legend {
+		font-weight : bold;
+		font-size : 18px;
+		color : purple;
+	}
+	
+	ul li {
+		margin-bottom : 10px;
+	}
+</style>
 </head>
 <body>
 <div class="container">
@@ -12,10 +51,12 @@
 			<legend>개인 정보</legend>
 			<ul>
 				<li>
-					<label class="title">이름<input type="text" /></label>
+					<label class="title">이름</label>
+					<label for=""><input type="text" /></label>
 				</li>
 				<li>
-					<label class="title">연락처<input type="text" /></label>
+					<label class="title">연락처</label>
+					<label for=""><input type="text" /></label>
 				</li>
 			</ul>
 		</fieldset>
@@ -23,13 +64,16 @@
 			<legend>배송지 정보</legend>
 			<ul>
 				<li>
-					<label class="title">주소 <input type="text" /></label>
+					<label class="title">주소</label>
+					<label for=""> <input type="text" size="40" /></label>
 				</li>
 				<li>
-					<label class="title">주소 <input type="text" /></label>
+					<label class="title">전화번호 </label>
+					<label for=""><input type="text" /></label>
 				</li>
 				<li>
-					<label class="title">주소 <textarea name="" id="" cols="30" rows="10"></textarea></label>
+					<label class="title">메모</label>
+					<label for=""><textarea name="" id="" cols="40" rows="3"></textarea></label>
 				</li>
 			</ul>
 		</fieldset>
