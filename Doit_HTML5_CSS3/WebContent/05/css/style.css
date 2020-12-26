@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+section {
+	border : 5px solid gray;
+	width : 500px;
+	padding : 10px;
+}
+
+h2 {
+	color : blue;
+}
+
+p {
+	font-size: 0.8em;
+	line-height: 2.0;
+}
