@@ -20,6 +20,7 @@ div {
 	width : 620px;
 	padding : 20px;
 	margin-bottom : 20px;
+	height: 300px;
 }
 
 #side {
@@ -28,6 +29,11 @@ div {
 	margin-bottom: 20px;
 	padding : 20px;
 	background-color: #eee;
+	height: 300px;
+}
+
+#side ul {
+	list-style-type: none;
 }
 
 #footer {
