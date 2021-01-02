@@ -1,6 +1,21 @@
 -----------------------------------------------
 
-// 자바스크립트 DOM 객체 생성
+// 자바스크립트 DOM 객체 접근
 
-var test = document.getElmentById("test1");	// Id
-var test = document.getElmentsById("test1");	// Id
+1. 쿼리 셀렉터 
+
+- 기본 
+var name = document.querySelector('#name')
+var name = document.querySelector('.name')
+
+- 여러개 클래스 배열 
+var names = document.querySelectorAll('#name');
+
+2. 기타 기본 
+
+- id
+var title = document.getElementById('title')
+- class
+var age = document.getElementsByClassName('age')
+- tag
+var images = document.getElementsByTagName('img')
