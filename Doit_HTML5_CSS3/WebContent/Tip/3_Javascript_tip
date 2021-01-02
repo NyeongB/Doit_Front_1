@@ -1,0 +1,6 @@
+-----------------------------------------------
+
+// 자바스크립트 DOM 객체 생성
+
+var test = document.getElmentById("test1");	// Id
+var test = document.getElmentsById("test1");	// Id

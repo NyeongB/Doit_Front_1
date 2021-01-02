@@ -1,0 +1,54 @@
+// 시멘틱 웹 기본 틀 
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Document</title>
+<link rel="stylesheet" href="layout-css.css" />
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>큰 제목</h1>
+			<nav>
+				<ul>
+					<li><a href="">메뉴1</a></li>
+					<li><a href="">메뉴2</a></li>
+					<li><a href="">메뉴3</a></li>
+					<li><a href="">메뉴4</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section>
+			<h2>섹션 제목</h2>
+			<article class="at1">
+				<h3>섹션1</h3>
+				<p>섹션 내용1</p>
+			</article>
+			<article class="at2">
+				<h3>섹션2</h3>
+				<p>섹션 내용2</p>
+			</article>
+			<article class="at3">
+				<h3>섹션3</h3>
+				<p>섹션 내용3</p>
+			</article>
+			<article class="at4">
+				<h3>섹션4</h3>
+				<p>섹션 내용4</p>
+			</article>
+		</section>
+
+		<aside>
+			<p>사이드 바</p>
+		</aside>
+
+		<footer>
+			<p>푸터</p>
+		</footer>
+	</div>
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------
